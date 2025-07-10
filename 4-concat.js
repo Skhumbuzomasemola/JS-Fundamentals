@@ -1,9 +1,4 @@
-const twoArg = process.argv[2];
-if (twoArg === 'c cool') {
-  console.log('c is cool');
-}
-else if (twoArg === 'c') {
-  console.log('c is undefined');
-}
-if (twoArg === undefined) {
-  console.log('is undefined');
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
+
+console.log(`${firstArg} is ${secondArg}`);
