@@ -6,4 +6,4 @@ else if (args === 1) {
   console.log("Argument found");
 }
 else {
-  console.log("${args} arguments");
+  console.log(`${args} arguments`);
