@@ -1,9 +1,8 @@
-const hbtn = process.argv. -2;
-if (hntn === 0) {
+const firstArg = process.argv[2];
+
+if (firstArg === undefined) {
   console.log('No argument');
-} else if (hbtn === 1) {
-  console.log('Argument found');
 } else {
-  console.log('Arguments found');
+  console.log(firstArg);
 }
-  
+
